@@ -1,0 +1,12 @@
+<p>experience works!</p>
+<div>
+  <mat-list>
+    <div mat-subheader>Folders</div>
+    <mat-list-item *ngFor="let exp of componentWorkExp">
+      <mat-icon mat-list-icon>Work Experence</mat-icon>
+      <div mat-line class="work-item">{{ exp.company }}</div>
+      <div mat-line>{{ exp.position }}</div>
+    </mat-list-item>
+    <mat-divider></mat-divider>
+  </mat-list>
+</div>
