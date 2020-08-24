@@ -1,0 +1,5 @@
+<p>userform works!</p>
+<input #name placeholder="type here" type="text" />
+<input #email placeholder="type here" type="text" />
+<button (click)="onClickSubmit(name.value, email.value)">SUBMIT</button>
+<h3>Hi, my name is {{ fromUIName }} , {{ fromUIEmail }}</h3>
